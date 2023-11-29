@@ -37,7 +37,11 @@ public class Base
         }
 
     }
-    
+
+    public IWebDriver GetDriver()
+    {
+        return driver;
+    }    
   //  [TearDown]
     public void Cleanup()
     {

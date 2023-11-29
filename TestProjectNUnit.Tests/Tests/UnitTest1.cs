@@ -8,7 +8,7 @@ public class Tests : Base
     [Test]
     public void Test1()
     {
-        var homePage = new HomePage(driver);
+        var homePage = new HomePage(GetDriver());
         homePage.GetHotelsAndResort().Click();
         Assert.Pass();
     }
