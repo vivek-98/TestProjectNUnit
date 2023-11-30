@@ -1,15 +1,16 @@
 using TestProjectNUnit.Tests.PageObjects;
 using TestProjectNUnit.Tests.Utilities;
 
-namespace TestProjectNUnit.Tests;
+namespace TestProjectNUnit.Tests.Tests;
 
 public class Tests : Base
 {
     [Test]
-    public void Test1()
+    public void VerifyHomePageBanner()
     {
-        var homePage = new HomePage(GetDriver());
-        homePage.GetHotelsAndResort().Click();
-        Assert.Pass();
+        HomePage?.GetHotelsAndResort().Click();
+        HomePage?.GetResidences().Click();
+        var elementVisible = Generic.ElementIsDisplayed(HomePage.GetLogoElement());
+        Assert.IsTrue(elementVisible, "The Logo is not visible");
     }
 }
