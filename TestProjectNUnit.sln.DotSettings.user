@@ -1,4 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=189a6fdf_002D832a_002D428d_002Dba21_002D490268e52c30/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=18303a68_002Dbab9_002D4999_002D9feb_002D1d6f9651ce2c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=189a6fdf_002D832a_002D428d_002Dba21_002D490268e52c30/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=406fecba_002D8a52_002D4d3f_002Daa08_002Dffbf5cc1bde4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6912be9_002D2a0c_002D4856_002Db157_002D1e920d473bef/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
