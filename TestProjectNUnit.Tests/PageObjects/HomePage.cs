@@ -1,4 +1,5 @@
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.PageObjects;
 
 namespace TestProjectNUnit.Tests.PageObjects;
@@ -41,6 +42,16 @@ public class HomePage
     public By GetLogoElement()
     {
         return logo;
+    }
+
+    public void DropDown()
+    {
+        SelectElement s = new SelectElement(Logo);
+        IWebElement ele=s.SelectedOption;
+        s.SelectByText("hello");
+        
+        IList<IWebElement> alloptions = s.Options;
+
     }
 }
 
